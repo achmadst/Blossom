@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A364499C2A1F118500C1648E /* HealthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A364499B2A1F118500C1648E /* HealthModel.swift */; };
+		A364499E2A1F25E200C1648E /* BreathingSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A364499D2A1F25E200C1648E /* BreathingSummaryView.swift */; };
+		A36449A32A1F7F2200C1648E /* RootPresentationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36449A22A1F7F2200C1648E /* RootPresentationExtension.swift */; };
+		A36588792A20549800F12A9B /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36588782A20549800F12A9B /* NotificationModel.swift */; };
 		A3C1F7D92A1DD8DD003770FF /* Blossom Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A3C1F7D82A1DD8DD003770FF /* Blossom Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A3C1F7DE2A1DD8DD003770FF /* BlossomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F7DD2A1DD8DD003770FF /* BlossomApp.swift */; };
-		A3C1F7E02A1DD8DD003770FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F7DF2A1DD8DD003770FF /* ContentView.swift */; };
+		A3C1F7E02A1DD8DD003770FF /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F7DF2A1DD8DD003770FF /* BreathingView.swift */; };
 		A3C1F7E22A1DD8DE003770FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C1F7E12A1DD8DE003770FF /* Assets.xcassets */; };
 		A3C1F7E52A1DD8DE003770FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C1F7E42A1DD8DE003770FF /* Preview Assets.xcassets */; };
 		A3C1F7EF2A1DD8DE003770FF /* Blossom_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F7EE2A1DD8DE003770FF /* Blossom_Watch_AppTests.swift */; };
 		A3C1F7F92A1DD8DE003770FF /* Blossom_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F7F82A1DD8DE003770FF /* Blossom_Watch_AppUITests.swift */; };
 		A3C1F7FB2A1DD8DE003770FF /* Blossom_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F7FA2A1DD8DE003770FF /* Blossom_Watch_AppUITestsLaunchTests.swift */; };
+		A3C1F80D2A1DDA93003770FF /* BreathingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F80C2A1DDA93003770FF /* BreathingModel.swift */; };
+		A3C1F80F2A1DDE4A003770FF /* BreathingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F80E2A1DDE4A003770FF /* BreathingCellView.swift */; };
+		A3C1F8112A1DEAFA003770FF /* BreathingGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F8102A1DEAFA003770FF /* BreathingGuideView.swift */; };
+		A3C1F8152A1DEEC3003770FF /* BlossomAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F8142A1DEEC3003770FF /* BlossomAppDelegate.swift */; };
+		A3C1F8172A1E033B003770FF /* BreathingEndGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F8162A1E033B003770FF /* BreathingEndGuideView.swift */; };
+		A3C1F8192A1E0B3E003770FF /* BreathingExplainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F8182A1E0B3E003770FF /* BreathingExplainView.swift */; };
+		A3C1F81C2A1E0E96003770FF /* LottieFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F81B2A1E0E96003770FF /* LottieFileManager.swift */; };
+		A3C1F81F2A1E0EC9003770FF /* SDWebImageLottieCoder in Frameworks */ = {isa = PBXBuildFile; productRef = A3C1F81E2A1E0EC9003770FF /* SDWebImageLottieCoder */; };
+		A3C1F8232A1E0F21003770FF /* BreathingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C1F8222A1E0F21003770FF /* BreathingBox.swift */; };
+		A3C1F8262A1E1168003770FF /* Blossom2.json in Resources */ = {isa = PBXBuildFile; fileRef = A3C1F8252A1E1168003770FF /* Blossom2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +70,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A364499B2A1F118500C1648E /* HealthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModel.swift; sourceTree = "<group>"; };
+		A364499D2A1F25E200C1648E /* BreathingSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingSummaryView.swift; sourceTree = "<group>"; };
+		A36449A22A1F7F2200C1648E /* RootPresentationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPresentationExtension.swift; sourceTree = "<group>"; };
+		A36449A42A1FFAD100C1648E /* Blossom-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Blossom-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A36449A52A1FFB6B00C1648E /* Blossom Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Blossom Watch App.entitlements"; sourceTree = "<group>"; };
+		A36588782A20549800F12A9B /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 		A3C1F7D22A1DD8DD003770FF /* Blossom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blossom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C1F7D82A1DD8DD003770FF /* Blossom Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blossom Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C1F7DD2A1DD8DD003770FF /* BlossomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlossomApp.swift; sourceTree = "<group>"; };
-		A3C1F7DF2A1DD8DD003770FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3C1F7DF2A1DD8DD003770FF /* BreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingView.swift; sourceTree = "<group>"; };
 		A3C1F7E12A1DD8DE003770FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3C1F7E42A1DD8DE003770FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3C1F7EA2A1DD8DE003770FF /* Blossom Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blossom Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +87,15 @@
 		A3C1F7F42A1DD8DE003770FF /* Blossom Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blossom Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C1F7F82A1DD8DE003770FF /* Blossom_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blossom_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		A3C1F7FA2A1DD8DE003770FF /* Blossom_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blossom_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3C1F80C2A1DDA93003770FF /* BreathingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingModel.swift; sourceTree = "<group>"; };
+		A3C1F80E2A1DDE4A003770FF /* BreathingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingCellView.swift; sourceTree = "<group>"; };
+		A3C1F8102A1DEAFA003770FF /* BreathingGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingGuideView.swift; sourceTree = "<group>"; };
+		A3C1F8142A1DEEC3003770FF /* BlossomAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlossomAppDelegate.swift; sourceTree = "<group>"; };
+		A3C1F8162A1E033B003770FF /* BreathingEndGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingEndGuideView.swift; sourceTree = "<group>"; };
+		A3C1F8182A1E0B3E003770FF /* BreathingExplainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingExplainView.swift; sourceTree = "<group>"; };
+		A3C1F81B2A1E0E96003770FF /* LottieFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieFileManager.swift; sourceTree = "<group>"; };
+		A3C1F8222A1E0F21003770FF /* BreathingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingBox.swift; sourceTree = "<group>"; };
+		A3C1F8252A1E1168003770FF /* Blossom2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Blossom2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C1F81F2A1E0EC9003770FF /* SDWebImageLottieCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +124,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A36449A12A1F7F0100C1648E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A36449A22A1F7F2200C1648E /* RootPresentationExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		A3C1F7CB2A1DD8DC003770FF = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +156,14 @@
 		A3C1F7DC2A1DD8DD003770FF /* Blossom Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				A36449A52A1FFB6B00C1648E /* Blossom Watch App.entitlements */,
+				A36449A42A1FFAD100C1648E /* Blossom-Watch-App-Info.plist */,
 				A3C1F7DD2A1DD8DD003770FF /* BlossomApp.swift */,
-				A3C1F7DF2A1DD8DD003770FF /* ContentView.swift */,
+				A3C1F8142A1DEEC3003770FF /* BlossomAppDelegate.swift */,
+				A3C1F8132A1DECE5003770FF /* View */,
+				A3C1F80B2A1DDA7D003770FF /* Model */,
+				A36449A12A1F7F0100C1648E /* Extension */,
+				A3C1F81A2A1E0E6D003770FF /* Animation */,
 				A3C1F7E12A1DD8DE003770FF /* Assets.xcassets */,
 				A3C1F7E32A1DD8DE003770FF /* Preview Content */,
 			);
@@ -149,6 +193,47 @@
 				A3C1F7FA2A1DD8DE003770FF /* Blossom_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "Blossom Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		A3C1F80B2A1DDA7D003770FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3C1F80C2A1DDA93003770FF /* BreathingModel.swift */,
+				A364499B2A1F118500C1648E /* HealthModel.swift */,
+				A36588782A20549800F12A9B /* NotificationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3C1F8132A1DECE5003770FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3C1F7DF2A1DD8DD003770FF /* BreathingView.swift */,
+				A3C1F8182A1E0B3E003770FF /* BreathingExplainView.swift */,
+				A3C1F8102A1DEAFA003770FF /* BreathingGuideView.swift */,
+				A3C1F8162A1E033B003770FF /* BreathingEndGuideView.swift */,
+				A3C1F80E2A1DDE4A003770FF /* BreathingCellView.swift */,
+				A364499D2A1F25E200C1648E /* BreathingSummaryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3C1F81A2A1E0E6D003770FF /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A3C1F8242A1E112B003770FF /* LottieFiles */,
+				A3C1F81B2A1E0E96003770FF /* LottieFileManager.swift */,
+				A3C1F8222A1E0F21003770FF /* BreathingBox.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		A3C1F8242A1E112B003770FF /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A3C1F8252A1E1168003770FF /* Blossom2.json */,
+			);
+			path = LottieFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +269,9 @@
 			dependencies = (
 			);
 			name = "Blossom Watch App";
+			packageProductDependencies = (
+				A3C1F81E2A1E0EC9003770FF /* SDWebImageLottieCoder */,
+			);
 			productName = "Blossom Watch App";
 			productReference = A3C1F7D82A1DD8DD003770FF /* Blossom Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +347,9 @@
 				Base,
 			);
 			mainGroup = A3C1F7CB2A1DD8DC003770FF;
+			packageReferences = (
+				A3C1F81D2A1E0EC9003770FF /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */,
+			);
 			productRefGroup = A3C1F7D32A1DD8DD003770FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,6 +376,7 @@
 			files = (
 				A3C1F7E52A1DD8DE003770FF /* Preview Assets.xcassets in Resources */,
 				A3C1F7E22A1DD8DE003770FF /* Assets.xcassets in Resources */,
+				A3C1F8262A1E1168003770FF /* Blossom2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +401,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3C1F7E02A1DD8DD003770FF /* ContentView.swift in Sources */,
+				A36449A32A1F7F2200C1648E /* RootPresentationExtension.swift in Sources */,
+				A3C1F8232A1E0F21003770FF /* BreathingBox.swift in Sources */,
+				A3C1F7E02A1DD8DD003770FF /* BreathingView.swift in Sources */,
+				A36588792A20549800F12A9B /* NotificationModel.swift in Sources */,
+				A3C1F8172A1E033B003770FF /* BreathingEndGuideView.swift in Sources */,
+				A3C1F80F2A1DDE4A003770FF /* BreathingCellView.swift in Sources */,
+				A3C1F81C2A1E0E96003770FF /* LottieFileManager.swift in Sources */,
+				A364499C2A1F118500C1648E /* HealthModel.swift in Sources */,
+				A3C1F8152A1DEEC3003770FF /* BlossomAppDelegate.swift in Sources */,
+				A3C1F80D2A1DDA93003770FF /* BreathingModel.swift in Sources */,
+				A3C1F8192A1E0B3E003770FF /* BreathingExplainView.swift in Sources */,
+				A3C1F8112A1DEAFA003770FF /* BreathingGuideView.swift in Sources */,
+				A364499E2A1F25E200C1648E /* BreathingSummaryView.swift in Sources */,
 				A3C1F7DE2A1DD8DD003770FF /* BlossomApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,13 +570,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Blossom Watch App/Blossom Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Blossom Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = H747JY2BA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blossom-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Blossom;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Your Health Data is Recorded!";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your Health Data is Shared!";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Your Health Data is Updated!";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -487,7 +596,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -496,13 +605,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Blossom Watch App/Blossom Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Blossom Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = H747JY2BA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blossom-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Blossom;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Your Health Data is Recorded!";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your Health Data is Shared!";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Your Health Data is Updated!";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -518,7 +632,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -572,7 +686,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blossom Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blossom Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -594,7 +708,7 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blossom Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blossom Watch App";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -614,7 +728,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_TARGET_NAME = "Blossom Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -635,7 +749,7 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_TARGET_NAME = "Blossom Watch App";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -688,6 +802,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A3C1F81D2A1E0EC9003770FF /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageLottieCoder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3C1F81E2A1E0EC9003770FF /* SDWebImageLottieCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3C1F81D2A1E0EC9003770FF /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */;
+			productName = SDWebImageLottieCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A3C1F7CC2A1DD8DC003770FF /* Project object */;
 }
